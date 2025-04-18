@@ -7,3 +7,8 @@ git push origin main
 git fetch origin
 git log HEAD..origin/main --oneline
 This will show you what commits exist on GitHub but not on your local system
+
+git pull origin main
+That will merge the new commits into your local code.
+
+
