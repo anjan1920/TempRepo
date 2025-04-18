@@ -1,1 +1,9 @@
-Hii this is a test file.And i will push it on the git repo using the git comand
+Hii this is a test file.And i will push it on the git repo using the git command
+
+git add hello.txt
+git commit -m "Added hello.txt"
+git push origin main
+
+git fetch origin
+git log HEAD..origin/main --oneline
+This will show you what commits exist on GitHub but not on your local system
